@@ -4,6 +4,10 @@
 // @description  Adds keyboard shortcuts to ANY video, Works on every site even social media though it's not recommended. You can edit the shortcuts and prevent the script from running on certain websites and webpages. It DOES NOT replace the original shortcuts.
 // @icon         https://visualpharm.com/assets/563/Clapperboard-595b40b75ba036ed117d5939.svg
 // @author       XDHx86
+// @copyright    2020, XDHx86 (https://openuserjs.org/users/XDHx86)
+// @license      MIT
+// @downloadURL  https://openuserjs.org/install/XDHx86/My_Video.user.js
+// @updateURL    https://openuserjs.org/meta/XDHx86/My_Video.meta.js
 // @match        http://*/*
 // @match        https://*/*
 // @grant        GM_setValue
@@ -15,17 +19,6 @@
 // @grant        GM_registerMenuCommand
 // ==/UserScript==
 
-/*
-    Features:
-    - Right click the menu to exclude website
-    - Option to backup/restore settings
-    - Edit any video shortcuts
-    - Exclude websites, pages
-    - Works on ANY video
-    - Download video (doesn't work on youtube and big platforms or if the video source is blob)
-    - Saves time of last stop
-    - Auto resume from last stop (off by default)
-*/
 (function() {
     'use strict';
 
@@ -49,7 +42,7 @@
         GM_setValue('full', 'keyf');
         GM_setValue('down', 'keyd');
         GM_setValue('pipm', 'keyp');
-        GM_setValue('excw', []);
+        GM_setValue('excw', ['www.facebook.com','www.soundcloud.com','www.spotify.com','open.spotify.com']);
         GM_setValue('excp', []);
         GM_setValue('autoc', false);
         GM_setValue('firstload', false);
