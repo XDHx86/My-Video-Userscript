@@ -47,7 +47,6 @@
         GM_setValue('autoc', false);
         GM_setValue('firstload', false);
     }
-
     var play = GM_getValue('play', 'keyk'),
         stop = GM_getValue('stop', 'keyo'),
         volp = GM_getValue('volp', 'arrowup'),
