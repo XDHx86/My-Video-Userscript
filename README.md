@@ -31,3 +31,4 @@ An easier way to view video by adding shortcuts globally
 
 ### Notes
 **Disabled** by default for these sites: Facebook, SoundCloud, Spotify
+**Links**: [OpenUserJS](https://openuserjs.org/scripts/XDHx86/My_Video) [GreasyFork](https://greasyfork.org/en/scripts/407532-my-video)
